@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    background-color: #f8f8f8;
+}
+
+#left-side {
+    float: left;
+    /*width: 50vw;*/
+    width: 20vw;
+}
+#right-side {
+    width: 50vw;
+    padding-left: 30vw;
+    padding-top: 8.5vh;
+    /*margin-right: 2vw !important;*/
+}
+input[type=text]{
+    width:100%;
+}
+.charts {
+    margin-top: 35px;
+    margin-right: -30vw;
+    margin-left: -9vw;
+}
+.pie {
+    float: left;
+    visibility: hidden;
+}
+.lineChart {
+    /*display: inline-block;*/
+    float: left;
+    visibility: hidden;
+}
+.barChart {
+    visibility: hidden;
+}
+table:nth-child(odd) {
+    background-color: #efefef;
+}
+
+
+#BookID_th {
+    width: 5%;
+}
+#BookID_td {
+    width: 5.5%;
+}
+#BookTitle {
+    width: 27%;
+}
+#BookDesc {
+    width: 22%;
+}
+#BookDate {
+    width: 10%;
+}
+#BookAuthor {
+    width: 23%;
+}
+#BookAction_th {
+    width: 13%;
+}
+#BookAction_td {
+    width: 11%;
+}
+    #search {
+    background-color: #f8f8f8;
+}
+/*Поиск по книгам:*/
+#MySearch {
+    height: 4vh;
+    border-radius: 25px;
+}
+
+
+#SearchButton {
+    margin-left:0.25vw;
+}
+/*==============*/

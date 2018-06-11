@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\package-lock.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp1.1\Library.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp1.1\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\netcoreapp1.1\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\netcoreapp1.1\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp1.1\Library.deps.json" />
+    <Content Include="bin\Debug\netcoreapp1.1\Library.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp1.1\Library.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp1.1\Library.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <!--<Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\MyStyle.css" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp1.1\Library.dll" />
+    <None Include="bin\Debug\netcoreapp1.1\Library.pdb" />
+    <None Include="bin\Debug\netcoreapp1.1\MyDbBooks.db" />
+    <None Include="obj\Debug\netcoreapp1.1\CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp1.1\Library.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp1.1\Library.dll" />
+    <None Include="obj\Debug\netcoreapp1.1\Library.pdb" />
+    <None Include="obj\Library.csproj.nuget.g.props" />
+    <None Include="obj\Library.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+</Project>
